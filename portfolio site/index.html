@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- External CSS files or stylesheets can be linked here -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4b54975c4f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav id="sideMenu">
+                <a href="#header">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#services">SERVICES</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#contact">CONTACT</a>
+                <i style="color: aliceblue;" class=" fa-regular fa-circle-xmark" onclick="closeMenu()"></i>
+            </nav>
+            <i style="color: aliceblue;" class="fa-solid fa-bars" onclick="openMenu()"></i>
+            <div class="header-text">
+            <p>JAVA & Fullstack Developer</p>
+            <h1>Hi, I'm <b>Ravidu</b> <span>Thrishanka</span> <br> from Sri Lanka</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container2">
+            <div class="row">
+                <div class="about-col1">
+
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey there! I'm currently studying Computer Engineering at the faculty of Enginering, University of Jaffna,
+                         diving deep into the world of Java and Fullstack development. I've always been fascinated by how technology
+                          can shape the world around us, and I'm on a mission to be a part of that transformation. Whether 
+                          it's crafting sleek user interfaces or building powerful backend systems, I love the creative 
+                          challenge that comes with coding. I'm all about staying curious and keeping 
+                        up with the latest trends in the field. Let's connect and bring some awesome ideas to life!</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opnTab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opnTab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opnTab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Fullstack Development</span><br>Web designing, Web app development</li>
+                                <li><span>Java Programming</span><br>App, Softwear development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Freelance Developer</span><br> Made websites and apps alone for different people, using Java, HTML, CSS, and JavaScript.</li>
+                                <li><span>Hackathons</span><br>Joined contests, made cool things quickly with a team, won awards for creativity.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Computer Engineering Degree</span><br>Bachelor's degree in Computer Engineering at the Faculty of Engineering University of Jaffna.</li>
+    
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------------services-------------------->
+<div id="services">
+    <div class="container2">
+        <h1 class="sub-title">My Services</h1> 
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>We specialize in creating beautiful and easy-to-use websites. Whether you're starting 
+                    fresh or updating an existing site, we're here to help. Our services include custom 
+                    design, seamless functionality across devices, and ongoing support. 
+                    Let's build your perfect online presence together.</p>
+                    <a href="#">Learn more..</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-window-restore"></i>
+                <h2>Web App Development</h2>
+                <p>We offer custom web application development tailored to your needs. 
+                    Our services include building user-friendly web apps that work on any device. 
+                    With ongoing support, we ensure your app stays efficient and effective. 
+                    Let's bring your ideas to life online.</p>
+                    <a href="#">Learn more..</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-microsoft"></i>
+                <h2>Software Development</h2>
+                <p>We specialize in creating custom software solutions tailored to your needs. 
+                    From design to support, we ensure smooth integration and ongoing success. 
+                    Let's bring your vision to life through reliable software development.</p>
+                    <a href="#">Learn more..</a>
+            </div>
+        </div> 
+    </div>
+</div>
+<!-------------------portfolio-------------------->
+<div id="portfolio">
+    <div class="container2">
+        <h1 class="sub-title">My Work</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="/work-1.png" alt="work 1 pic here">
+                <div class="layer">
+                    <h3>App Gallery</h3>
+                    <p>The app browse through a visually captivating gallery layout featuring a collection of apps.
+                         Enjoy a sleek presentation showcasing each app's unique layout and design elements.</p>
+                         <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/work-2.png" alt="work 2 pic here">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app design to connect easily with friends, share updates, and discover new content.
+                         It's a place where you can chat, 
+                        post photos, and stay updated on what's happening in your social circle.</p>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/work-3.png" alt="work 3 pic here">
+                <div class="layer">
+                    <h3>Online Store App</h3>
+                    <p>App helps to browse a wide range of products, make secure purchases, and enjoy seamless navigation.
+                         It's your go-to destination for hassle-free online shopping  </p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <button class="btn" onclick="window.location.href='https://google.com'">See more</button>
+
+</div>
+<!--------------contact------------------>
+<div id="contact">
+    <div class="container2">
+        <h1>Contact Me</h1>
+        <div class="row">
+            <div class="contact-left">
+                
+                <p><i class="fa-solid fa-envelope"></i>hmrthrishankaherath@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>071-0492901</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>                   
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="massage"  rows="6" placeholder="your massage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>   
+</div>
+<div class="copyright">
+    <p>Copyright <i class="fa-regular fa-copyright"></i> Ravidu Thrishanka</p>
+</div>
+
+    <!-- JavaScript scripts  -->
+    <script>
+        let tabLinks = document.getElementsByClassName("tab-links");
+        let tabContents=document.getElementsByClassName("tab-contents");
+
+        function opnTab(tabName){
+            for(tabLink of tabLinks){
+                tabLink.classList.remove("active-link");
+            }
+            for(tabContent of tabContents){
+                tabContent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+
+        let sideMenu = document.getElementById("sideMenu");
+        function openMenu(){
+            sideMenu.style.right= "0";
+        }
+        function closeMenu(){
+            sideMenu.style.right= "-150px";
+        }
+    </script>
+</body>
+</html>
+
